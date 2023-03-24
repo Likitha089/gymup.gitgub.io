@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(219, 214, 214);
+}
+#categories{
+    text-align: center;
+    }
+
+
+#categories .cat1{
+    font-weight: 900;
+    font-size: 20px; 
+    background-image: url("https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 20px 25px 300px;
+}
+#categories .cat1 button{
+    background-color: #DF362D;
+    color: whitesmoke;
+    border: 0;
+    padding: 14px 65px 14px 65px;
+    font-weight: 700;
+}
